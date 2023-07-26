@@ -22,12 +22,24 @@ cpan install Text::CSV_XS LWP::Simple
 
 If you don't have cpan installed, you can install it using a package manager or download it from https://www.cpan.org/modules/INSTALL.html.
 
-## Setup
+## Download ZIP File (Option 1)
 
-1. Clone the Repository: Clone this GitHub repository to your local machine using:
+1. Go to the GitHub repository page: https://github.com/your_username/discogs_prices_perl
 
-git clone https://github.com/hefvandz/discogs_prices_perl.git
+2. Click on the green "Code" button.
 
+3. Select "Download ZIP" from the drop-down menu.
+
+4. Extract the downloaded ZIP file to a location on your computer.
+
+## Clone the Repository (Option 2)
+
+1. Clone the GitHub repository to your local machine using the following command:
+
+git clone https://github.com/your_username/discogs_prices_perl.git
+
+
+Replace `your_username` with your actual GitHub username.
 
 2. Navigate to the Directory: Change into the project directory:
 
@@ -52,7 +64,6 @@ Replace `file.csv` with the path to your exported collection CSV file from Disco
 - The output file will contain columns for "Lowest," "Median," "Highest," and "Release_Link," which includes a hyperlink to each item's Discogs release page.
 
 - The script handles wide characters and assumes the CSV input file is in UTF-8 encoding.
-
 
 ## Author
 
